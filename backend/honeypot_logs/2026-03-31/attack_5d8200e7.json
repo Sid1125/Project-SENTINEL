@@ -1,0 +1,14 @@
+{
+  "attack_id": "5d8200e7",
+  "source_ip": "127.0.0.1",
+  "source_port": 58298,
+  "listen_port": 3389,
+  "mimic_port": 3389,
+  "service": "RDP",
+  "timestamp": "2026-03-31T17:16:34.154709",
+  "commands": [
+    "Connection established"
+  ],
+  "raw_data": "0a",
+  "command_count": 1
+}

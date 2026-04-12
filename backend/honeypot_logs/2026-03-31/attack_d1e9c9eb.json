@@ -1,0 +1,14 @@
+{
+  "attack_id": "d1e9c9eb",
+  "source_ip": "127.0.0.1",
+  "source_port": 36127,
+  "listen_port": 8081,
+  "mimic_port": 80,
+  "service": "HTTP",
+  "timestamp": "2026-03-31T17:19:05.995089",
+  "commands": [
+    "GET / HTTP/1.1"
+  ],
+  "raw_data": "474554202f20485454502f312e310a",
+  "command_count": 1
+}

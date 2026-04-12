@@ -1,0 +1,14 @@
+{
+  "attack_id": "f98adfd7",
+  "source_ip": "127.0.0.1",
+  "source_port": 12883,
+  "listen_port": 2525,
+  "mimic_port": 25,
+  "service": "SMTP",
+  "timestamp": "2026-03-31T17:19:11.202304",
+  "commands": [
+    "HELO test.com"
+  ],
+  "raw_data": "48454c4f20746573742e636f6d0a",
+  "command_count": 1
+}

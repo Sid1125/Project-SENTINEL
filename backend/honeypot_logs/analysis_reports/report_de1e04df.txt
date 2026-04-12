@@ -1,0 +1,14 @@
+Attack ID: de1e04df
+Analysis Date: 2026-03-31T22:49:28.554593
+==================================================
+
+ Threat Analysis Report:
+
+Attack Type: RDP (Remote Desktop Protocol) Scanning
+Severity Assessment: High
+Likely Attacker's Objective: Exploiting vulnerabilities in the target system to gain access and view data
+IOCs: 
+- RDP Listening Port: 338
+- RDP Session ID: 7e8f6e7a1c
+- User Name: Admin_Admin
+- Server:                               

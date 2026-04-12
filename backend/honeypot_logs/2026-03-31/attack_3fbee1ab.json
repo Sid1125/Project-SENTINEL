@@ -1,0 +1,14 @@
+{
+  "attack_id": "3fbee1ab",
+  "source_ip": "127.0.0.1",
+  "source_port": 56230,
+  "listen_port": 2222,
+  "mimic_port": 22,
+  "service": "SSH",
+  "timestamp": "2026-03-31T17:16:23.294557",
+  "commands": [
+    "user admin"
+  ],
+  "raw_data": "757365722061646d696e0a",
+  "command_count": 1
+}

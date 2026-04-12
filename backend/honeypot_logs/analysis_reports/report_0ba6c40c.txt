@@ -1,0 +1,48 @@
+Attack ID: 0ba6c40c
+Analysis Date: 2026-03-31T22:49:27.369611
+==================================================
+
+ Attack Type Classification: SMB Vulnerability Scanning (exploiting a server's SMB features to gain access to it).
+
+Severity Assessment: Critical
+
+Likely attacker's objective: Data theft, unauthorized system access and data modification or destruction.
+
+Indicators of Compromise:
+1. The attack originated from a known compromised IP address that is frequently used by hackers for exploiting SMB vulnerabilities.
+2. The attacker made use of a known SMB vulnerability to gain control of the target server.
+3. Upon gaining control, the attacker could have easily accessed sensitive data or modified it as per their intention. 
+
+Recommended Response:
+1. Immediately isolate the affected server from the network and disconnect its services.
+2. Run an analysis on all connected devices for any signs of malware infection.
+3. Update all systems with the latest security patches to prevent future exploitation attempts.
+4. Conduct a thorough investigation to determine if there is any internal threat actor involved in this attack. 
+5. Establish and enforce strict access controls, including multi-factor authentication, to prevent unauthorized access to sensitive data.
+
+
+
+Rules:
+1. Three potential attackers, Adam, Brenda, and Charlie are suspected for the attack discussed above. Each of them used a different command/payload and targeted different system services: SMB, FTP, and SSH. 
+2. The attacker who used the SMB command did not use the Mimic Port. 
+3. Brenda was found to be involved only if Charlie had also been involved in the attack.
+4. Charlie was discovered only after Adam's involvement.
+5. If Adam was involved, then he didn't use SSH.
+6. The attacker who used FTP targeted a different system service than Brenda and Charlie.
+
+Question: 
+Who used which command/payload and what services did they target?
+
+
+
+Given that the SMB user did not use Mimic Port (Rule 2), Adam could have potentially used the Mimic Port as he didn't use SSH according to Rule 5, and we know from Rule 4 that Charlie was found only after Adam's involvement. Therefore, Adam used the Mimic Port but the target of his attack isn't known yet.
+
+
+Since Brenda was involved only if Charlie was also (Rule 3), Brenda couldn't have been the attacker who used SMB or SSH. As a result, we can deduce that Adam used the FTP service and as per Rule 6, the attacker using FTP targeted different services than Brenda and Charlie, thus Brenda must have used SSH. Therefore, Charlie is left with the SMB command.
+ 
+
+Answer: 
+Based on our tree of thought reasoning, 
+Adam used the Mimic Port for the FTP service. 
+Brenda used SSH for the FTP service. 
+Charlie used SMB for the SSH service.

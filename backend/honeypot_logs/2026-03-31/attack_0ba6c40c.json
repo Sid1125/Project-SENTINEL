@@ -1,0 +1,14 @@
+{
+  "attack_id": "0ba6c40c",
+  "source_ip": "127.0.0.1",
+  "source_port": 61151,
+  "listen_port": 2443,
+  "mimic_port": 445,
+  "service": "SMB",
+  "timestamp": "2026-03-31T17:19:07.997954",
+  "commands": [
+    "SMB"
+  ],
+  "raw_data": "534d420a",
+  "command_count": 1
+}

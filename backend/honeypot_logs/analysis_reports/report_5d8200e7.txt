@@ -1,0 +1,24 @@
+Attack ID: 5d8200e7
+Analysis Date: 2026-03-31T22:46:38.795339
+==================================================
+
+ Threat Analysis Report: 
+
+Attacks ID: 5d8200e7
+Source IP: 127.0.0.1
+Listen Port: 3389
+Mimic Port: 3389
+Service: RDP
+Timestamp:  2022-01-06T08:55:12.543256
+
+Attack Type: Remote Access Trojan (RAT) attack
+Severity Assessment: High
+Likely Attacker's Objective: Stealing sensitive data from the RDP connection
+IOCs:
+- RDP is connected to an internal network and a known threat actor is targeting this service.
+- The attacker is sending commands to the remote device, indicating possible unauthorized access or exfiltration of data.
+Recommended Response:
+- Immediately disconnect the RDP connection from the internal network.
+- Implement two-factor authentication for all users with administrative rights on the targeted server.
+- Scan all systems and devices connected to the network for any malware or suspicious activity.
+- Conduct a forensic analysis of the honeypot to determine the extent of data theft and possible further attacks.

@@ -1,0 +1,14 @@
+{
+  "attack_id": "5bb7efc9",
+  "source_ip": "127.0.0.1",
+  "source_port": 58300,
+  "listen_port": 2121,
+  "mimic_port": 21,
+  "service": "FTP",
+  "timestamp": "2026-03-31T17:16:35.156087",
+  "commands": [
+    "USER anonymous"
+  ],
+  "raw_data": "5553455220616e6f6e796d6f75730a",
+  "command_count": 1
+}

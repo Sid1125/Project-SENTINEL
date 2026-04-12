@@ -1,0 +1,14 @@
+{
+  "attack_id": "8064fdb8",
+  "source_ip": "127.0.0.1",
+  "source_port": 64559,
+  "listen_port": 2323,
+  "mimic_port": 23,
+  "service": "Telnet",
+  "timestamp": "2026-03-31T17:19:04.971253",
+  "commands": [
+    "root"
+  ],
+  "raw_data": "726f6f740a",
+  "command_count": 1
+}

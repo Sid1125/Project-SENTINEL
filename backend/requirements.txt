@@ -1,0 +1,37 @@
+# SENTINEL Backend Dependencies
+# Works with Python 3.11+
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]
+python-socketio[asyncio]
+
+# Database (PostgreSQL)
+sqlalchemy>=2.0.0
+psycopg2-binary
+
+# Network Scanning
+python-nmap
+scapy
+netaddr
+
+# ML & AI (Anomaly Detection)
+scikit-learn>=1.4.0
+joblib>=1.3.2
+numpy>=1.24.0
+
+# Utilities
+python-dotenv
+httpx
+python-multipart
+
+# Logging & Security
+cryptography
+loguru
+
+# Optional: Packet Capture (Windows requires Npcap)
+# npcap (Windows only - install separately from https://npcap.com/
+
+# Optional: Advanced Threat Intelligence
+# sh>=0.45.1  # SHAP for model explainability
+# torch>=2.1.0  # PyTorch for advanced ML models
